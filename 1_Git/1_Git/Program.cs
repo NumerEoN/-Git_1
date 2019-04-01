@@ -10,7 +10,10 @@ namespace _1_Git
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("GIT");
+            River objRiver = new River();
+            objRiver.SetInfo();
+            objRiver.GetInfo();
+            Console.ReadKey();
         }
     }
 }
